@@ -6,6 +6,7 @@ g++ console.cpp -o main
 #include <iostream>
 #include <thread>
 #include <chrono>
+#include <ctime>
 #define DEBUG
 using namespace std;
 
@@ -77,22 +78,48 @@ void func_fbnc(){
     ext_but();
 }
 
-void func_ext(bool &active){
-    active = false;
+void func_game(){
+    clr_tml();
+
+    srand(time(NULL));
+    int a, b = rand() %20;
+
+    cout << TAB << "-- Game \"Guess number\" --" << NEW;
+    cout << NEW << TAB << "I have a secret number 1-20" << NEW;
+    
+    do{
+        cout << "Number: "; cin >> a;
+        if (a == b){
+            cout << NEW << TAB << "Yes! You are winner!" << NEW << NEW ;
+        }
+        else if (a > 20){
+            cout << "Diapason 1-20" << NEW << NEW;
+        }
+        else if (a > b){
+            cout << "My number is less" << NEW << NEW;
+        }
+        else{
+            cout << "My number is greater" << NEW << NEW;
+        }
+
+    } while (a != b);
+
+    ext_but();
 }
+
 
 void show_menu(){    
     char opt_menu;
     bool active = true;
-
 
     do{
         clr_tml();
         cout << TAB << "-- PROGRAM CONSOLE --" << NEW;
         cout << NEW << TAB << "Select option:" << NEW;
         cout << "[1] Calculator" << NEW << "[2] Fibonacci" << NEW;
-        cout << "[3] Calculator" << NEW << "[4] Calculator" << NEW;
-        cout << "[5] Calculator" << NEW << "[7] Exit" << NEW;
+        cout << "[3] Game" << NEW << "[4] Empty" << NEW;
+        cout << "[5] Empty" << NEW << "[6] Empty" << NEW;
+        cout << "[7] Empty" << NEW << "[8] Exit" << NEW;
         cout << NEW << "Option: ";
         cin >> opt_menu;
 
@@ -103,8 +130,11 @@ void show_menu(){
         case '2':
             func_fbnc();
             break;
-        case '7':
-            func_ext(active);
+        case '3':
+            func_game();
+            break;
+        case '8':
+            active = false;
             clr_tml();
             break;
         
@@ -113,10 +143,8 @@ void show_menu(){
             ext_but();
         }
         
-    }while (active);
-    
+    }while (active);   
 }
-
 
 
 int main(){
@@ -125,6 +153,8 @@ int main(){
     clr_tml();
 
     show_menu();
+
+
 
     return 0;
 }
