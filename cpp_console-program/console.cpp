@@ -1,160 +1,141 @@
-/*
-g++ console.cpp -o main
-./main
-*/
-
 #include <iostream>
 #include <thread>
 #include <chrono>
-#include <ctime>
-#define DEBUG
 using namespace std;
 
-const char NEW = '\n';
-const char TAB = '\t';
-
-void clr_tml(){
+void cls(){
     system("clear");
 }
 
-void ext_but(){
-    cout << NEW << "Waiting 10 sec... " << NEW;
-    this_thread::sleep_for(std::chrono::seconds(10));
+void sleep(int sec){
+    cout << "\nWait " << sec << " seconds ...";
+    cout.flush(); // я не розумію чому але мушу зробити таке
+    // типу цей cout треба розбуферизувати
+    this_thread::sleep_for(chrono::seconds(sec));
 }
 
-void func_calc(){
-    clr_tml();
+int factorial(int num){
+    if (num == 0) return 0;
+    if (num == 1) return 1;
+    return num * factorial(num-1);
+}
 
-    int a, b;
-    char opt_math;
 
-    cout << TAB << "-- CALCULATOR --" << NEW;
-    cout << NEW << TAB << "Enter number A, B and oporate" << NEW;
-    cout << "A: "; cin >> a;
-    cout << "B: "; cin >> b;
-    cout << "Opt: "; cin >> opt_math;
-
-    switch (opt_math){
-    case '+':
-        cout << NEW << TAB << "Result = " << a + b << NEW;
-        break;
-    case '-':
-        cout << NEW << TAB << "Result = " << a - b << NEW;
-        break;
-    case '*':
-        cout << NEW << TAB << "Result = " << a * b << NEW;
-        break;
-    case '/':
-        cout << NEW << TAB << "Result = " << (float)a / b << NEW;
-        break;
+void func_one(){
+    cls();
+    cout << "\n[1]\tCreate a two-dimensional array" << endl;
     
-    default:
-        cout << NEW << TAB << "[Error] Not found this command!" << NEW;
-        break;
+    int arr_rows;
+    int arr_cols;
+    cout << "\nEnter rows for array: "; cin >> arr_rows;
+    cout << "Enter cols for array: "; cin >> arr_cols;
+
+    int **arr = new int *[arr_rows];
+    for (int i = 0; i < arr_rows; i++){
+        arr[i] = new int [arr_cols];
     }
 
-    ext_but();
-}
+    for (int i = 0; i < arr_rows; i++){
+        for (int j = 0; j < arr_cols; j++){
+            arr[i][j] = rand() % 10;
+        }
+    }
+    cout << endl;
 
-int func_fbnc_help(int a){
-    if (a == 0)
-        return 0;
-    if (a == 1)
-        return 1;
-    return a * func_fbnc_help(a - 1);
-}
-
-void func_fbnc(){
-    clr_tml();
-
-    int a;
-
-    cout << TAB << "-- Fibonacci --" << NEW;
-    cout << NEW << TAB << "Enter number" << NEW;
-    cout << "Number: "; cin >> a;
-    int result = func_fbnc_help(a);
-    cout << NEW << TAB << "Result = " << result << NEW;
-
-    ext_but();
-}
-
-void func_game(){
-    clr_tml();
-
-    srand(time(NULL));
-    int a, b = rand() %20;
-
-    cout << TAB << "-- Game \"Guess number\" --" << NEW;
-    cout << NEW << TAB << "I have a secret number 1-20" << NEW;
+    for (int i = 0; i < arr_rows; i++){
+        cout << "\t| ";
+        for (int j = 0; j < arr_cols; j++){
+            cout << arr[i][j] << " ";
+        }
+        cout << "|" << endl;
+    }
     
-    do{
-        cout << "Number: "; cin >> a;
-        if (a == b){
-            cout << NEW << TAB << "Yes! You are winner!" << NEW << NEW ;
-        }
-        else if (a > 20){
-            cout << "Diapason 1-20" << NEW << NEW;
-        }
-        else if (a > b){
-            cout << "My number is less" << NEW << NEW;
-        }
-        else{
-            cout << "My number is greater" << NEW << NEW;
-        }
+    for (int i = 0; i < arr_rows; i++){
+        delete[] arr[i];
+    }
+    delete[] arr;
 
-    } while (a != b);
+    sleep(8);
+}
 
-    ext_but();
+void func_two(){
+    cls();
+    cout << "\n[2]\tFactorial formula" << endl;
+
+    int number;
+    cout << "\nEnter your number: "; cin >> number;
+    cout << "\n\tYour result: " << factorial(number) << endl;
+
+    sleep(3);
+}
+
+void func_three(){
+    cls();
+    cout << "Func three: wait 3 sec" << endl;
+    sleep(3);
+}
+
+void func_four(){
+    cls();
+    cout << "Func four: wait 3 sec" << endl;
+    sleep(3);
+}
+
+void func_five(){
+    cls();
+    cout << "Func five: wait 3 sec" << endl;
+    sleep(3);
 }
 
 
-void show_menu(){    
-    char opt_menu;
-    bool active = true;
-
-    do{
-        clr_tml();
-        cout << TAB << "-- PROGRAM CONSOLE --" << NEW;
-        cout << NEW << TAB << "Select option:" << NEW;
-        cout << "[1] Calculator" << NEW << "[2] Fibonacci" << NEW;
-        cout << "[3] Game" << NEW << "[4] Empty" << NEW;
-        cout << "[5] Empty" << NEW << "[6] Empty" << NEW;
-        cout << "[7] Empty" << NEW << "[8] Exit" << NEW;
-        cout << NEW << "Option: ";
-        cin >> opt_menu;
-
-        switch (opt_menu){
-        case '1':
-            func_calc();
+void func_options(int &option){
+    switch (option){
+        case 1:
+            func_one();
             break;
-        case '2':
-            func_fbnc();
+        case 2:
+            func_two();
             break;
-        case '3':
-            func_game();
+        case 3:
+            func_three();
             break;
-        case '8':
-            active = false;
-            clr_tml();
+        case 4:
+            func_four();
             break;
-        
-        default:
-            cout << NEW << TAB << "Not found this command!" << NEW;
-            ext_but();
-        }
-        
-    }while (active);   
+        case 5:
+            func_five();
+            break;
+    }
 }
 
 
 int main(){
-    setlocale(LC_ALL, "ua");
+    int option;
 
-    clr_tml();
+    while (option != 6){
+        cls();
 
-    show_menu();
+        option = 0;
 
+        cout << "\n[0]\tWelcome to the console program" << endl;
 
+        cout << "\nChoose number: \n";
+        cout << "[1] Create a two-dimensional array\n";
+        cout << "[2] Factorial formula\n";
+        // [3] Калькулятор
+        // [4] Вгадай число
+        cout << "[6] Exit, stop program\n";
+
+        cout << "\nOption: ";
+        cin >> option;
+
+        if (option >= 1 && option < 6){
+            func_options(option);
+        }
+    }
+
+    cls();
+    cout << "\n\tGoodBye!" << endl;
 
     return 0;
 }
