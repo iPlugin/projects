@@ -12,7 +12,7 @@ def main():
         elif res == "2":
             action = "decrypt"
             break
-        
+
         print("Please enter the number 1 or 2")
     
     while True:

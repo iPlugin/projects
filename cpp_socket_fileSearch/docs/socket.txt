@@ -1,0 +1,57 @@
+~ NETWORKING C++ ~
+
+    [ SOCKET ]
+#include <sys/socket.h>
+int FD = socket(domain, type, protocol);
+"""
+Domain = AF_INET / AF_INET6 / AF_UNIX
+Type = SOCK_STREAM / SOCK_DGRAM / ...
+Protocol = 0 (протокол не вказано)
+"""
+
+Error moment
+socket() - повертає -1 у разі помилки
+
+
+    [ CONNECT ]
+#include <netinet/in.h>
+#include <arpa/inet.h>
+struct sockaddr_in serverAddress;
+""" serverAddress екземпляр sockaddr_in """
+serverAddress.sin_family = AF_INET;
+""" сімейство адрес для зєдання """
+serverAddress.sin_port = htons(<port>);
+""" встановлюється номер порту сервера """
+inet_pton(AF_INET, <ip>, &serverAddress.sin_addr.s_addr);
+""" встановлює IP-адресу сервера """
+
+connect(socketFD, sockaddr, sizeof(sockaddr));
+socketFD = те що повернув socket()
+sockaddr = адресу сервера
+sizeof(sockaddr) = розмір адреси
+
+Error moment
+connect() - повертає -1 у разі помилки
+
+
+    [ SEND ]
+const char* send_buffer;
+send_buffer = "<message>";
+send(socketFD, send_buffer, strlen(send_buffer), 0);
+"""
+socketFD = те що повернув socket()
+send_buffer = відправка на сервер
+strlen(send_buffer) = розмір повідомлення
+0 = вливає на поведінку отримання
+"""
+
+
+    [ RECV ]
+char recv_buffer[1024];
+recv(socketFD, recv_buffer, 1024, 0);
+"""
+socketFD = те що повернув socket()
+recv_buffer = отримання з серверу
+1024 = макс. очікуваний розмір памяті
+0 = вливає на поведінку отримання
+"""

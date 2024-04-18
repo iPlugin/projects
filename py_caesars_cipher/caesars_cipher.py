@@ -24,7 +24,7 @@ while True:
     if 0 <= int(res) < len(LETTER):
         key2 = int(res)
         break
-    
+
 print(f"Enter the message to {action}")
 msg = input(">>> ").upper()
 

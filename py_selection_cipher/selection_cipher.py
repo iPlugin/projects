@@ -13,7 +13,7 @@ def main():
         elif res in {"2", "decrypt"}:
             action = "decrypt"
             break
-        
+
         print("Please enter either '1' or 'encrypt' for encryption, or '2' or 'decrypt' for decryption.")
         
     while True:
