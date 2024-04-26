@@ -2,7 +2,7 @@
 
 using namespace std;
 
-
+// Забрати цю всю хуйню і передати структурою
 void searchFile(const string& current_path, const string& filename, vector<string>& paths, atomic<bool>& stop_search, atomic<int>& count_files, atomic<int>& count_error, mutex& paths_mutex){
     for(const auto& file:filesystem::directory_iterator(current_path)){
         if(stop_search){
@@ -10,7 +10,7 @@ void searchFile(const string& current_path, const string& filename, vector<strin
         }
         try{
             // це я собі спрощував життя + там і так багато папок status: private
-            // if (file.path() == "/sys" || file.path() == "/proc" || file.path() == "/dev") continue;
+            if (file.path() == "/sys" || file.path() == "/proc" || file.path() == "/dev") continue;
             if (filesystem::is_directory(file)){
                 searchFile(file.path().string(), filename, paths, stop_search, count_files, count_error, paths_mutex);
             }
