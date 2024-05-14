@@ -1,0 +1,132 @@
+2024-05-14 18:53:57 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 18:53:57 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 18:53:57 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 18:53:57 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 18:53:57 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 18:53:57 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:53:58 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:53:58 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:53:59 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:53:59 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:54:00 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:54:00 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:54:01 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:54:01 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:54:02 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:54:02 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 18:54:02 [ INFO ] 	[ RECV ]	[ Duration ]	Received message
+2024-05-14 18:54:17 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 18:54:17 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 18:54:17 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 18:54:17 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 18:54:17 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 18:54:17 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:54:17 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:54:18 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 18:54:18 [ INFO ] 	[ RECV ]	[ Duration ]	Received message
+2024-05-14 18:58:45 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 18:58:45 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 18:58:45 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 18:58:45 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 18:58:45 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 18:58:45 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:58:46 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:58:46 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 18:58:46 [ INFO ] 	[ RECV ]	[ Duration ]	Received message
+2024-05-14 18:59:13 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 18:59:13 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 18:59:13 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 18:59:13 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 18:59:13 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 18:59:13 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:59:13 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:59:13 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 18:59:14 [ INFO ] 	[ RECV ]	[ Duration ]	Received message
+2024-05-14 18:59:42 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 18:59:42 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 18:59:42 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 18:59:42 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 18:59:42 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 18:59:42 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:59:42 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 18:59:42 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 18:59:43 [ INFO ] 	[ RECV ]	[ Duration ]	Received message
+2024-05-14 18:59:43 [WARNING] 	[ CONNECT ]	Connection closed
+2024-05-14 19:00:05 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 19:00:05 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 19:00:05 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 19:00:05 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 19:00:05 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 19:00:05 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:00:05 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:00:05 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 19:00:06 [ INFO ] 	[ RECV ]	[ Duration ]	Received message
+2024-05-14 19:00:06 [WARNING] 	[ CONNECT ]	Connection closed
+2024-05-14 19:03:35 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 19:03:35 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 19:03:35 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 19:03:35 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 19:03:35 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 19:03:35 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:03:35 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:03:35 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 19:03:36 [ INFO ] 	[ RECV ]	[ Duration ]	Received message
+2024-05-14 19:03:36 [WARNING] 	[ CONNECT ]	Connection closed
+2024-05-14 19:04:22 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 19:04:22 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 19:04:22 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 19:04:22 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 19:04:22 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 19:04:22 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:04:23 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:04:23 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 19:04:23 [ INFO ] 	[ RECV ]	[ Duration ]	Received message
+2024-05-14 19:04:23 [WARNING] 	[ CONNECT ]	Connection closed
+2024-05-14 19:05:55 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 19:05:55 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 19:05:55 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 19:05:55 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 19:05:55 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 19:05:55 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:05:55 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:05:55 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 19:05:56 [ INFO ] 	[ RECV ]	[ Duration ]	Received message
+2024-05-14 19:05:56 [WARNING] 	[ CONNECT ]	Connection closed
+2024-05-14 19:31:16 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 19:31:16 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 19:31:16 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 19:31:16 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 19:31:16 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 19:31:16 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:31:17 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:31:17 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 19:31:17 [ INFO ] 	[ RECV ]	[ Duration ]	Received message
+2024-05-14 19:31:17 [WARNING] 	[ CONNECT ]	Connection closed
+2024-05-14 19:37:00 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 19:37:00 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 19:37:00 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 19:37:00 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 19:37:00 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 19:37:00 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:37:01 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:37:01 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 19:37:01 [ INFO ] 	[ RECV ]	[ Duration ]	Received message
+2024-05-14 19:37:01 [WARNING] 	[ CONNECT ]	Connection closed
+2024-05-14 19:44:30 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 19:44:30 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 19:44:30 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 19:44:30 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 19:44:30 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 19:44:30 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:44:31 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 19:44:31 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 19:44:31 [WARNING] 	[ CONNECT ]	Connection closed
+2024-05-14 20:07:20 [ INFO ] 	[ VALID ]	Valid argumants
+2024-05-14 20:07:20 [ INFO ] 	[ SOCKET ]	Socket created successfully
+2024-05-14 20:07:20 [ INFO ] 	[ CONNECT ]	Connection was successfully
+2024-05-14 20:07:20 [ INFO ] 	[ SEND ]	Sent message
+2024-05-14 20:07:20 [ INFO ] 	[ RECV ]	[ Intro ]	Received message
+2024-05-14 20:07:20 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 20:07:21 [ INFO ] 	[ RECV ]	[ PlsWait ]	Received message
+2024-05-14 20:07:21 [ INFO ] 	[ RECV ]	[ Result ]	Received message
+2024-05-14 20:07:21 [WARNING] 	[ CONNECT ]	Connection closed
