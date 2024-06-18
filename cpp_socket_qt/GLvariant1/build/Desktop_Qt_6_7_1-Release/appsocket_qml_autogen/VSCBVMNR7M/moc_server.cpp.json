@@ -1,0 +1,64 @@
+{
+    "classes": [
+        {
+            "className": "Server",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "serverSocket",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "port",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "connectToServer",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msg",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "send_msg_filename",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "recv_msg",
+                    "returnType": "std::string"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "Server",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "messageReceived",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "server.h",
+    "outputRevision": 68
+}

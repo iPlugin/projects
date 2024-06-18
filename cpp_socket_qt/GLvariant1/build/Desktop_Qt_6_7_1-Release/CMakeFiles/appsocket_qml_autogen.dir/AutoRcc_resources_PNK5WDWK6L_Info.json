@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/appsocket_qml_autogen",
+	"CMAKE_BINARY_DIR" : "/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/iplugin/Code/Github/socket_qt/socket_qml",
+	"CMAKE_SOURCE_DIR" : "/home/iplugin/Code/Github/socket_qt/socket_qml",
+	"INCLUDE_DIR" : "/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/appsocket_qml_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/dark/exit.png",
+		"/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/dark/sun.png",
+		"/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/dark/setting.png",
+		"/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/light/exit.png",
+		"/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/light/sun.png",
+		"/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/light/setting.png"
+	],
+	"LOCK_FILE" : "/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/CMakeFiles/appsocket_qml_autogen.dir/AutoRcc_resources_PNK5WDWK6L_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "PNK5WDWK6L",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/home/iplugin/Qt/6.7.1/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/CMakeFiles/appsocket_qml_autogen.dir/AutoRcc_resources_PNK5WDWK6L_Used.txt",
+	"SOURCE" : "/home/iplugin/Code/Github/socket_qt/socket_qml/res/resources.qrc",
+	"VERBOSITY" : 0
+}

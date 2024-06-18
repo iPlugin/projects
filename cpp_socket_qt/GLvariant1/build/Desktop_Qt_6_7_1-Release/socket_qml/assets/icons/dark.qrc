@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/dark">
+        <file>exitDark.png</file>
+        <file>settingDark.png</file>
+        <file>sunDark.png</file>
+    </qresource>
+</RCC>

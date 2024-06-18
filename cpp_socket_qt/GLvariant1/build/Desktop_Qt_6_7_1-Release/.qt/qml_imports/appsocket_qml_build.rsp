@@ -1,0 +1,14 @@
+-rootPath
+/home/iplugin/Code/Github/socket_qt/socket_qml
+-cmake-output
+-output-file
+/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/.qt/qml_imports/appsocket_qml_build.cmake
+-importPath
+/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/socket_qml
+-importPath
+/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release
+-importPath
+/home/iplugin/Qt/6.7.1/gcc_64/./qml
+-qrcFiles
+/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/.qt/rcc/qmake_socket_qml.qrc
+/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/.qt/rcc/appsocket_qml_raw_qml_0.qrc

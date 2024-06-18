@@ -1,0 +1,2 @@
+/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/appsocket_qml_autogen/include/../VSCBVMNR7M/moc_client.cpp.json
+/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/appsocket_qml_autogen/include/../VSCBVMNR7M/moc_server.cpp.json

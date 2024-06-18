@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-5ac0bd86aa93cdddc789.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "socket_qml",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-5ff950e735170fff5383.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-6fc9827fd6b23978b36c.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-a52a728866da3c3bde75.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-ddffed930678fa8a66ae.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsocket_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsocket_qml-Release-758a592cc3c30f58098e.json",
+					"name" : "appsocket_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsocket_qml_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsocket_qml_autogen-Release-3af1dfd27b8bf63782ad.json",
+					"name" : "appsocket_qml_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsocket_qml_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsocket_qml_autogen_timestamp_deps-Release-67fe43eae80d214d8667.json",
+					"name" : "appsocket_qml_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsocket_qml_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsocket_qml_qmlimportscan-Release-1927b1c7ec667a0779d2.json",
+					"name" : "appsocket_qml_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsocket_qml_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsocket_qml_qmllint-Release-83001c9a6a6fd7d86939.json",
+					"name" : "appsocket_qml_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsocket_qml_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsocket_qml_qmllint_json-Release-68a90cad0990ad901034.json",
+					"name" : "appsocket_qml_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsocket_qml_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsocket_qml_qmllint_module-Release-e779c4d80bb38b54bbba.json",
+					"name" : "appsocket_qml_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsocket_qml_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsocket_qml_qmltyperegistration-Release-59d50d6ba9a7901b37bb.json",
+					"name" : "appsocket_qml_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appsocket_qml_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appsocket_qml_tooling-Release-690767ac4da98cb591ac.json",
+					"name" : "appsocket_qml_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release",
+		"source" : "/home/iplugin/Code/Github/socket_qt/socket_qml"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

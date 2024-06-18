@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/assert/icons">
+        <file>res.qrc</file>
+        <file>exitDark.png</file>
+        <file>exitLight.png</file>
+        <file>settingDark.png</file>
+        <file>settingLight.png</file>
+        <file>sunDark.png</file>
+        <file>sunLight.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "server",
+            "object": true,
+            "qualifiedClassName": "server",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "server.h",
+    "outputRevision": 68
+}

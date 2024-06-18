@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/socket_qml/">
+    <file alias="qml/Main.qml">/home/iplugin/Code/Github/socket_qt/socket_qml/qml/Main.qml</file>
+    <file alias="res/resources.qrc">/home/iplugin/Code/Github/socket_qt/socket_qml/res/resources.qrc</file>
+    <file alias="assets/icons/light/exit.png">/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/light/exit.png</file>
+    <file alias="assets/icons/light/setting.png">/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/light/setting.png</file>
+    <file alias="assets/icons/light/sun.png">/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/light/sun.png</file>
+    <file alias="assets/icons/dark/exit.png">/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/dark/exit.png</file>
+    <file alias="assets/icons/dark/setting.png">/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/dark/setting.png</file>
+    <file alias="assets/icons/dark/sun.png">/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/dark/sun.png</file>
+  </qresource>
+</RCC>
+

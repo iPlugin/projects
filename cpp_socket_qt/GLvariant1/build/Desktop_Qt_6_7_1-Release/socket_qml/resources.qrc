@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/icons/dark/exit.png</file>
+        <file>assets/icons/dark/setting.png</file>
+        <file>assets/icons/dark/sun.png</file>
+        <file>assets/icons/light/exit.png</file>
+        <file>assets/icons/light/setting.png</file>
+        <file>assets/icons/light/sun.png</file>
+    </qresource>
+</RCC>

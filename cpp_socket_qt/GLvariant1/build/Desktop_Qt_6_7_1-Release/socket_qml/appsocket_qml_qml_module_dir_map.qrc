@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/socket_qml">/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/socket_qml</file>
+
+  </qresource>
+</RCC>

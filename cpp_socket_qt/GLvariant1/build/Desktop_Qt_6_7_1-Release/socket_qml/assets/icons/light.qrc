@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/light">
+        <file>exit.png</file>
+        <file>setting.png</file>
+        <file>sun.png</file>
+    </qresource>
+</RCC>

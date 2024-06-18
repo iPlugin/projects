@@ -1,0 +1,10 @@
+--bare
+-I
+/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release
+-I
+/home/iplugin/Qt/6.7.1/gcc_64/./qml
+--resource
+/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/.qt/rcc/qmake_socket_qml.qrc
+--resource
+/home/iplugin/Code/Github/socket_qt/socket_qml/build/Desktop_Qt_6_7_1-Release/.qt/rcc/appsocket_qml_raw_qml_0.qrc
+/home/iplugin/Code/Github/socket_qt/socket_qml/qml/Main.qml

@@ -1,0 +1,5 @@
+module socket_qml
+typeinfo appsocket_qml.qmltypes
+prefer :/socket_qml/
+Main 1.0 qml/Main.qml
+

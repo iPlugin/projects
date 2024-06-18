@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="../assets/images/logo.png">/home/iplugin/Code/Github/socket_qt/socket_qml/assets/images/logo.png</file>
+    <file alias="../assets/icons/icon.png">/home/iplugin/Code/Github/socket_qt/socket_qml/assets/icons/icon.png</file>
+    <file alias="res.qrc">/home/iplugin/Code/Github/socket_qt/socket_qml/resources/res.qrc</file>
+  </qresource>
+</RCC>
+
