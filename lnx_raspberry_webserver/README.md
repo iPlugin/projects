@@ -1,13 +1,12 @@
 ![logo](screen/logo.png)
 
 # Всім привіт 👋 Зміст:
-- [Встановлення і налаштування RaspBerry](#встановити-операційну-систему-за-допомогою-imager)
-- [Підключення по SSH](#робимо-підключення-по-ssh)
-- [Перекидання файлів через SCP](#перекидаємо-папку-на-raspberry-через-scp)
-- [Робота з S-bit](#запускаємо-netroute-на-raspberry)
-- [Налаштування веб-сервер Apache](#налаштування-веб-сервер-apache)
+- [Встановлення і налаштування RaspBerry](#встановлення-і-налаштування-raspberry)
+- [Підключення по SSH до RaspBerry](#підключення-по-ssh-до-raspberry)
+- [Перенесення PHP файлу через SCP](#перенесення-php-файлу-через-scp)
+- [Налаштування веб-серверу Apache](#налаштування-веб-серверу-apache)
 
-## Встановити операційну систему за допомогою Imager
+## Встановлення і налаштування RaspBerry
 
 ``` Bash
 # aspire 192.168.3.155
@@ -16,50 +15,49 @@ sudo apt install rpi-imager
 rpi-imager
 ```
 
-Вибираємо пристрій, вибираємо ОС і накопичувач
+### Вибираємо пристрій, вибираємо ОС і накопичувач
 
 ![alt text](screen/image.png)
 
-Edit settings
+#### Edit settings
 
 ![alt text](screen/image-4.png)
 
-General
+#### General
 
 ![alt text](screen/image-1.png)
 
-Services
+#### Services
 
 ![alt text](screen/image-2.png)
 
-Option
+#### Option
 
 ![alt text](screen/image-3.png)
 
-Yes
+#### Yes
 
 ![alt text](screen/image-5.png)
 
-Yes
+#### Yes
 
 ![alt text](screen/image-6.png)
 
-Continue
+#### Continue
 
 ![alt text](screen/image-7.png)
 
-
-Встановлюємо SD в плату
+#### Встановлюємо SD в плату
 
 ![alt text](screen/photo-1.jpg)
 
-Піключаємо живлення, Ethernet
+#### Піключаємо до живлення і Ethernet
 
 ![alt text](screen/photo-2.jpg)
 
-## Робимо підключення по SSH
+## Підключення по SSH до RaspBerry
 
-Скануємо всі ip в локальній мережі через nmap і шукаємо ip Raspberry
+### Скануємо всі ip в локальній мережі через nmap і шукаємо ip RaspBerry
 
 ``` Bash
 # aspire 192.168.3.155
@@ -76,92 +74,64 @@ ssh rasp@192.168.3.181
 
 ![alt text](screen/image-9.png)
 
-## Перекидаємо папку на raspberry через SCP
-
-Створюємо робочу дерикторію
+## Перенесення PHP файлу через SCP
 
 ``` Bash
-# raspberry 192.168.3.181
+# aspire 192.168.3.155 -> 192.168.86.144
+# raspberry 192.168.3.181 -> 192.168.86.32
+```
+
+#### Створюємо робочу дерикторію
+
+``` Bash
+# raspberry 192.168.86.32
 mkdir myFolder
 ```
 
 ![alt text](screen/image-10.png)
 
-Перекидаємо папку
+#### Переносимо файл
 
 ``` Bash
-# aspire 192.168.3.155
+# aspire 192.168.86.144
 ll Desktop/
-scp -r Desktop/src rasp@192.168.3.181:myFolder/
+scp Desktop/file.php rasp@192.168.86.32:myFolder/
 ```
 
-![alt text](screen/image-11.png)
+![alt text](screen/image-22.png)
+
+## Налаштування веб-серверу Apache
 
 ``` Bash
-# raspberry 192.168.3.181
-cd myFolder/src
-ls
-make start
-sudo chmod +x netrouter
-sudo cp netrouter /usr/local/bin
-make clean
-cd ~
-```
-
-## Запускаємо netroute на raspberry
-
-Посилання на цей [проєкт](https://github.com/iPlugin/projects/tree/main/cpp_openwrt_netrouter) є в моєму github
-
-``` Bash
-# raspberry 192.168.3.181
-sudo chmod 4755 /usr/local/bin/netrouter
-netrouter 8.8.8.8
-rm -r myFolder/src
-```
-
-![alt text](screen/image-12.png)
-
-## Налаштування веб-сервер Apache
-
-``` Bash
-# raspberry 192.168.3.181
+# raspberry 192.168.86.32
 sudo apt update && sudo apt upgrade
 sudo apt install apache2 -y
 ```
 
 ![alt text](screen/image-13.png)
 
-``` Google request
-# aspire 192.168.3.155
-Google request: 192.168.3.181
-```
-
-![alt text](screen/image-14.png)
 
 ``` Bash
-# raspberry 192.168.3.181
+# raspberry 192.168.86.32
+sudo mv myFolder/file.php /var/www/html/
 cd /var/www/html
 ls -al
-sudo chown rasp: index.html
+sudo chown rasp: file.html
 ```
 
 ![alt text](screen/image-15.png)
 
-Встановлення PHP для Apache
-
 ``` Bash
-# raspberry 192.168.3.181
+# raspberry 192.168.86.32
 sudo apt install php libapache2-mod-php -y
-sudo rm index.html
-sudo nano index.php
-cat index.php
+cat file.php
 ```
 
-![alt text](screen/image-16.png)
+![alt text](screen/image-20.png)
 
 ``` Google request
-# aspire 192.168.3.155
-Google request: 192.168.3.181
+# aspire 192.168.86.144
+Google request: 192.168.86.32
 ```
 
-![alt text](screen/image-17.png)
+![alt text](screen/image-23.png)
