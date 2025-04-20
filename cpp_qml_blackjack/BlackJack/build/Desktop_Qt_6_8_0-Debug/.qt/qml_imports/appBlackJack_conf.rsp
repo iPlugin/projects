@@ -1,0 +1,14 @@
+-rootPath
+/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack
+-cmake-output
+-output-file
+/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/.qt/qml_imports/appBlackJack_conf.cmake
+-importPath
+/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack
+-importPath
+/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug
+-importPath
+/home/iplugin/Qt/6.8.0/gcc_64/qml
+-qrcFiles
+/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qmake_BlackJack.qrc
+/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/appBlackJack_raw_qml_0.qrc

@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-63bd0b7f5517d44bb63d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BlackJack",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-6ea3f2388ccffb01cfd3.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-67d5bb278d20edfa2db9.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-9d7779c368066ee62015.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-217476c7033086ee9450.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-a9010532f187ed10ad6a.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBlackJack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBlackJack-Debug-940cdac95a2b785fa3dd.json",
+					"name" : "appBlackJack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBlackJack_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBlackJack_autogen-Debug-1beb90f81ee9cc5b1683.json",
+					"name" : "appBlackJack_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBlackJack_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBlackJack_autogen_timestamp_deps-Debug-d65c22c675ac97982f52.json",
+					"name" : "appBlackJack_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBlackJack_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBlackJack_qmlimportscan-Debug-89abe1ac7a0fae21907c.json",
+					"name" : "appBlackJack_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBlackJack_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBlackJack_qmllint-Debug-98b70305617f92e643ad.json",
+					"name" : "appBlackJack_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBlackJack_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBlackJack_qmllint_json-Debug-8fd1ea5fafdd7123a7f5.json",
+					"name" : "appBlackJack_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBlackJack_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBlackJack_qmllint_module-Debug-ee20849b548c6043e02d.json",
+					"name" : "appBlackJack_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBlackJack_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBlackJack_qmltyperegistration-Debug-5cdd8292f4f2b2585b11.json",
+					"name" : "appBlackJack_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBlackJack_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBlackJack_tooling-Debug-73ed1b93a1acb9a32492.json",
+					"name" : "appBlackJack_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appBlackJack_aotstats_targets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appBlackJack_aotstats_targets-Debug-a6b17c89a71f6a24b9c5.json",
+					"name" : "module_appBlackJack_aotstats_targets",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug",
+		"source" : "/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

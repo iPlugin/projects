@@ -1,0 +1,80 @@
+[
+    {
+        "classes": [
+            {
+                "className": "CardManager",
+                "lineNumber": 10,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "page_cards",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "generate_dealer_card",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "page_cards",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "generate_your_card",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "sum_dealer_card",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "sum_your_card",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "clearGeneratedCards",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "filePath",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "typeTables",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "saveImageToResource",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "CardManager",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cardmanager.h",
+        "outputRevision": 68
+    }
+]
